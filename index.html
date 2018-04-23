@@ -1,94 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="main.css">
-    <title>My Portfolio</title>
-  </head>
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
+  <title>Portfolio</title>
+</head>
+<body>
+  <header>
+    <ul class="logo">
+      <li><a href="">Jesus Alvarez</a></li>
+    </ul>
+    <ul>
+      <li><a href="#about-me">About me</a></li>
+      <li><a href="">Projects</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </header>
+  <section class="personal-info">
+    <img src="./images/profile.jpg" width="300" alt="profile_pic">
+    <h1>Jesus Alvarez</h1>
+    <h2>Full Stack Developer</h3>
+    <ul>
+      <li><a target="_blank" href="mailto:alv.mtz94@gmail.com"><i class="fas fa-envelope"></i>Email</a></li>
+      <li><a target="_blank" href="https://github.com/jsgilberto/"><i class="fab fa-github"></i>Github</a></li>
+      <li><a target="_blank" href="https://www.linkedin.com/in/jesus-alvarez-martinez"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+    </ul>
+  </section>
+  <section id="about-me" class="about-me">
+    <h3>About Me</h3>
+    <p>I'm Jesus Alvarez. I am a web page developer interested in developing web pages with high quality visual aspects. After finishing my career in electronic engineering I discovered my passion for programming, which from my point of view is a combination of mathematics and art. Due to my hardworking and enthusiastic character I am open to any opportunity to collaborate on interesting and creative projects.</p>
+  </section>
+  <section class="projects">
+    <h3>Projects</h3>
+    <ul>
+      <li><a href="https://github.com/ossu/computer-science">OSSU</a>The OSSU curriculum is a complete education in computer science using online materials.</li>
+      <li><a href="https://github.com/ps4eye/ps4eye">ps4eye</a>PS4 Camera Tools</li>
+      <li><a href="https://github.com/tensorflow/tensorflow">TensorFlow</a>Computation using data flow graphs for scalable machine learning</li>
+    </ul>
+  </section>
+  <footer>
+    <ul>
+      <li><a href="">Made with <i class="fas fa-heart"></i> by Jesus</a></li>
+    </ul>
+    <ul>
+      <li><a target="_blank" href="mailto:alv.mtz94@gmail.com"><i class="fas fa-envelope"></i></a></li>
+      <li><a target="_blank" href="https://github.com/jsgilberto/"><i class="fab fa-github"></i></a></li>
+      <li><a target="_blank" href="https://www.linkedin.com/in/jesus-alvarez-martinez"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+  </footer>
 
-  <body>
-
-    <header>
-
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-			<div class="container">
-         <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li><a href="index.html">JESUS ALVAREZ</a></li>
-				</ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#aboutme">ABOUT ME</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-			</div>
-		</nav>
-  </div>
-    </header>
-
-    <div class="Personal-info">
-    	<span class="profile-pic">
-    		<img src="./images/profile.jpeg" alt="profile">
-    	</span>
-	    <div class="name">
-	    	<h1>JESUS ALVAREZ</h1>
-	    </div>
-	    <h2>Full Stack Developer</h2>
-	    <div class="social">
-	    	<ul>
-		      <li><a href="#" target="_blank"><span><img src="./images/email-icon.png" alt=""></span>  Email</a></li>
-		      <li><a href="#" target="_blank"><span><img src="./images/linkedin-icon.png" alt=""></span>  LinkedIn</a></li>
-		      <li><a href="#" target="_blank"><span><img src="./images/github-icon.png" alt=""></span>  Github</a></li>
-		    </ul>
-	    </div>
-    </div>
-
-    <div class="About-me">
-      <a name="aboutme">
-      	<h1>About me</h1>
-      </a>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-    </div>
-    <div class="About-me">
-
-      <a name="projects">
-      	<h1>Projects</h1>
-      </a>
-      <ul>
-        <li><a href="https://github.com/GStreamer/gstreamer" target="_blank">Project 1: This is GStreamer, a framework for streaming media.</a></li>
-        <li><a href="https://github.com/Skobraf/React-Redux-Expensify-app" target="_blank">Project 2: React and Redux Expensify app from Udemy course</a></li>
-        <li><a href="https://github.com/Skobraf/ProteinTracker-ChromeExtension" target="_blank">Project 3: a Sample chrome extension to calculate the protein in the day</a></li>
-      </ul>
-    </div>
-
-    <footer>
-      <ul>
-        <li class="float-left"><span>Made with <3 by Jesus</span><a name="contact"></a></li>
-        <li><a href="#" target="_blank"><img src="./images/email-icon.png" alt=""></a></li>
-        <li><a href="#" target="_blank"><img src="./images/linkedin-icon.png" alt=""></a></li>
-        <li><a href="#" target="_blank"><img src="./images/github-icon.png" alt=""></a></li>
-      </ul>
-    </footer>
-  </body>
-
-
+</body>
 </html>
